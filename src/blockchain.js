@@ -138,7 +138,7 @@ class Blockchain {
             try {
                 let timeFromMessage = parseInt(message.split(':')[1]);
                 let currentTime = parseInt(new Date().getTime().toString().slice(0, -3));
-                if ((currentTime - timeFromMessage) < 7300) {
+                if ((currentTime - timeFromMessage) < 300) {
                     //Verify the message signature
                     let isValid = bitcoinMessage.verify(message, address, signature);
                     if (isValid) {
