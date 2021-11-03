@@ -199,3 +199,20 @@ You should see in your terminal a message indicating that the server is listenin
      ![Request: http://localhost:8000/submitstar](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5ca365d3_signing-message/signing-message.png)
 6. Retrieve Stars owned by me
     ![Request: http://localhost:8000/blocks/<WALLET_ADDRESS>](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5ca362b9_retrieve-stars/retrieve-stars.png)
+    
+    
+## Test Results and screenshots
+1. GET call to request the Genesis block
+	![Screen Shot 2021-11-03 at 3 51 35 AM](https://user-images.githubusercontent.com/65207094/140025204-f860abcd-8b04-463e-96bd-f4846aa43694.png)
+2. POST call to requestValidation
+	![image](https://user-images.githubusercontent.com/65207094/140026696-019132a5-64aa-425b-832c-d1211e944cfe.png)
+3. Sign message with your wallet
+	![image](https://user-images.githubusercontent.com/65207094/140027098-8152a56b-02de-4f53-b93b-c75df20db960.png)
+4. Submit Star
+	![image](https://user-images.githubusercontent.com/65207094/140027193-b2f12352-442d-43bd-8f5e-6dd4dbbded8c.png)
+5. GET call to retrieve starts owned by a particular address
+	![image](https://user-images.githubusercontent.com/65207094/140027270-113b7121-d522-488b-a574-bd547befdb91.png)
+
+
+
+
